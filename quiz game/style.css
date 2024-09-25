@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    color: white;
+    border: 2px solid white;
+    width: 600px;
+    height: 70vh;
+    display: none;
+    /* text-align: center; */
+}
+
+.QText {
+    text-align: center;
+}
+
+.startBox{
+    display: flex;
+    color: white;
+    border: 2px solid white;
+    width: 600px;
+    height: 70vh;
+    flex-direction: column;
+    padding: 50px 70px;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+#start{
+    border: none;
+    padding: 21px 25px;
+    width: 12rem;
+    cursor: pointer;
+}
+
+#allOptions li{
+    list-style: none;
+}
+

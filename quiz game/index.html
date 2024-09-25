@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuiZy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="startBox">
+        <div>
+            <h2 class="welcome">Welcome to the Quiz</h2>
+            <p class="intro">Lets! test your knowledge, each question will give you +1 marks</p>
+        </div>
+        <button id="start">Start Quiz</button>
+    </div>
+    <div class="container">
+        <h2 id="QText"></h2>
+        <ul id="allOptions"> </ul>
+        <button id="next" onclick="submitAnswer()">Next</button>
+        <div id="result"></div>
+        <!-- <button id="restart" onclick="loadQuiz()">Restart Quiz</button> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
